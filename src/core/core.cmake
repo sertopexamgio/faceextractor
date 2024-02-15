@@ -1,0 +1,5 @@
+target_sources(face-segmentation PUBLIC src/core/face_detector.cc)
+target_sources(face-segmentation PUBLIC src/core/facemark_detector.cc)
+target_sources(face-segmentation PUBLIC src/core/landmark.cc)
+target_sources(face-segmentation PUBLIC src/core/helper.cc)
+target_sources(face-segmentation PUBLIC src/core/face.cc)
